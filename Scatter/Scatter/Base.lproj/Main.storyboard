@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1F2-PC-HKW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scattered View Controller-->
+        <scene sceneID="aJ8-Yb-dfW">
+            <objects>
+                <viewController id="ktZ-9x-yo7" customClass="ScatteredViewController" customModule="Scatter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6h9-NS-bYh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lambda_logo" translatesAutoresizingMaskIntoConstraints="NO" id="nQv-CN-qNn">
+                                <rect key="frame" x="20" y="258" width="374" height="392"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ui2-IA-Bpg">
+                                <rect key="frame" x="20" y="108" width="374" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWk-wz-5kJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="60"/>
+                                        <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-Yb-CTR">
+                                        <rect key="frame" x="65" y="0.0" width="49.5" height="60"/>
+                                        <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBS-wT-gzc">
+                                        <rect key="frame" x="129.5" y="0.0" width="50" height="60"/>
+                                        <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGl-R7-kYU">
+                                        <rect key="frame" x="194.5" y="0.0" width="50" height="60"/>
+                                        <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cV-xG-TMW">
+                                        <rect key="frame" x="259.5" y="0.0" width="49.5" height="60"/>
+                                        <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKC-Bc-aSx">
+                                        <rect key="frame" x="324" y="0.0" width="50" height="60"/>
+                                        <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fmM-pP-2m4" firstAttribute="trailing" secondItem="ui2-IA-Bpg" secondAttribute="trailing" constant="20" id="4XH-3J-tmq"/>
+                            <constraint firstItem="fmM-pP-2m4" firstAttribute="trailing" secondItem="ui2-IA-Bpg" secondAttribute="trailing" constant="20" id="5uQ-aU-xyS"/>
+                            <constraint firstItem="fmM-pP-2m4" firstAttribute="bottom" secondItem="nQv-CN-qNn" secondAttribute="bottom" constant="212" id="U0s-if-XD3"/>
+                            <constraint firstItem="ui2-IA-Bpg" firstAttribute="top" secondItem="fmM-pP-2m4" secondAttribute="top" constant="20" id="Vdc-eW-uoP"/>
+                            <constraint firstItem="fmM-pP-2m4" firstAttribute="trailing" secondItem="nQv-CN-qNn" secondAttribute="trailing" constant="20" id="WSx-ce-Ri3"/>
+                            <constraint firstItem="nQv-CN-qNn" firstAttribute="leading" secondItem="fmM-pP-2m4" secondAttribute="leading" constant="20" id="bAE-Ih-INx"/>
+                            <constraint firstItem="ui2-IA-Bpg" firstAttribute="leading" secondItem="fmM-pP-2m4" secondAttribute="leading" constant="20" id="cnI-8p-cZh"/>
+                            <constraint firstItem="ui2-IA-Bpg" firstAttribute="leading" secondItem="fmM-pP-2m4" secondAttribute="leading" constant="20" id="gb9-yn-BVL"/>
+                            <constraint firstItem="nQv-CN-qNn" firstAttribute="top" secondItem="ui2-IA-Bpg" secondAttribute="bottom" constant="90" id="p6X-yv-lMj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fmM-pP-2m4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yZX-5p-Jek">
+                        <barButtonItem key="rightBarButtonItem" title="Toggle" id="R5C-D2-oMq">
+                            <connections>
+                                <action selector="toggleButtonTapped:" destination="ktZ-9x-yo7" id="UgL-b1-tiJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="aLabel" destination="Tyc-Yb-CTR" id="HbT-Er-qlO"/>
+                        <outlet property="bLabel" destination="NGl-R7-kYU" id="8KP-6x-ZLl"/>
+                        <outlet property="dLabel" destination="9cV-xG-TMW" id="IN7-aW-7hv"/>
+                        <outlet property="finalALabel" destination="uKC-Bc-aSx" id="dLL-nQ-F1e"/>
+                        <outlet property="lLabel" destination="rWk-wz-5kJ" id="tNH-Cf-C4t"/>
+                        <outlet property="logoImage" destination="nQv-CN-qNn" id="LVN-gY-Zcp"/>
+                        <outlet property="mLabel" destination="WBS-wT-gzc" id="0Uh-vC-rfy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EOp-LU-OfP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1818.840579710145" y="139.95535714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pnH-ev-9pm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1F2-PC-HKW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JYf-nN-SAw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ktZ-9x-yo7" kind="relationship" relationship="rootViewController" id="ueH-ad-Qix"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Q9-5d-fen" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908.69565217391312" y="139.95535714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lambda_logo" width="2000" height="558"/>
+    </resources>
+</document>
