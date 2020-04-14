@@ -81,7 +81,7 @@ class ScatteredViewController: UIViewController {
     
     //MARK: Toggle Anims
     @IBAction func toggleButtonTapped(_ sender: Any) {
-        let letters = [lLabel, aLabel, mLabel, bLabel, dLabel, finalALabel]
+        var letters = [lLabel, aLabel, mLabel, bLabel, dLabel, finalALabel]
         let colors = [UIColor.purple, UIColor.green, UIColor.blue, UIColor.gray, UIColor.red, UIColor.systemPink, UIColor.black]
         
         if self.isScattered == false {
@@ -91,9 +91,10 @@ class ScatteredViewController: UIViewController {
                     UIView.animate(withDuration: 2, animations: {
                         unwrappedLetter.transform = CGAffineTransform(rotationAngle: CGFloat.pi / CGFloat(Int.random(in: 1...4)))
                         unwrappedLetter.transform = CGAffineTransform(translationX: 0, y: CGFloat(Int.random(in: 100...250)))
-
                         unwrappedLetter.backgroundColor = colors[Int.random(in: 0...6)]
                         unwrappedLetter.textColor = .white
+                        
+                        
                     }, completion: nil)
                 }
             }
